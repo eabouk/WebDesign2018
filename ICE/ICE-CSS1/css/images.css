@@ -1,0 +1,48 @@
+*{
+	margin: 0;
+}
+img{
+	display: inline-block;
+	margin: 25px;
+	padding: 5px;
+
+	border-style: solid;
+	border-width: 3px;
+	border-color: #000000;
+
+	height: 250px;
+	width: auto;
+
+}
+div{
+	width: 100%;
+	opacity: 1;
+}
+
+div.bar{
+	height: 5px;
+	width: 100%;
+
+	color: #5e5c66;
+	opacity: 1;
+}
+
+div.square{
+	display: inline-block;
+	margin: 25px;
+	padding: 5px;
+
+	height: 5px;
+	width: 5px;
+	color: #4022c9;
+
+}
+
+
+.hover:hover{
+	border-radius: 300px;
+}
+
+.focus:focus{
+	filter: grayscale(100%);
+}

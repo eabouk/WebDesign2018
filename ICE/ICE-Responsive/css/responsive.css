@@ -1,0 +1,37 @@
+.grid-container{
+	display: grid;
+	grid-gap: 50px;
+	columns: 2;
+	grid-row: 14;
+}
+
+@media only screen and (min-width: 650px){
+#photo-cell{
+	display: inline block;
+	}
+.top-nav ul li{
+	display: inline-block;
+}
+
+.top-nav ul{
+	text-align: center;
+
+}
+
+#Yellow{
+	grid-column: 50%;
+}
+#Bluish-Purple{
+	grid-column: 50%;
+}
+}
+
+
+@media only screen and (min-width: 100px){
+body{
+	background-color: green;
+}
+#photo-cell{
+	display: block;
+}
+}
